@@ -27,6 +27,8 @@ gem 'ember-source', '1.0.0' # or the version you need
   config.ember.variant = :development # or :production
 ```
 
+**Note:** in `Rails 4` it's currently required to set this up explicitly. 
+
 4. Next, generate the application structure:
 ```shell
 rails generate ember:bootstrap
